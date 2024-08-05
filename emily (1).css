@@ -1,0 +1,60 @@
+/* Reseta o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   /* Estilo para o corpo */
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #000000;
+    color: #fafafa;
+   }
+   /* Estilo do cabeçalho */
+   header {
+    background: #659de6;
+    color: #b75aca;
+    padding: 1rem 0;
+    text-align: center;
+   }
+   header h1 {
+    margin-bottom: 0.5rem;
+   }
+   header nav ul {
+    list-style: none;
+   }
+   header nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+   }
+   header nav ul li a {
+    color: #88708a;
+    text-decoration: none;
+   }
+   header nav ul li a:hover {
+    text-decoration: underline;
+   }
+   /* Estilo para o conteúdo principal */
+   main {
+    padding: 2rem;
+    margin: 2rem 0;
+   }
+   /* Estilo das seções */
+   section {
+    margin-bottom: 3rem;
+   }
+   section h2 {
+    margin-bottom: 2rem;
+    color: #86276f;
+   }
+   /* Estilo do rodapé */
+   footer {
+    background: #367ac7;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+   }
